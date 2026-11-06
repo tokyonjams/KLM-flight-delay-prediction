@@ -1,0 +1,30 @@
+# Environment variables — never commit this!
+.env
+
+cat >> .gitignore <<'EOF'
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.log
+
+# Raw and processed flight data
+*.csv
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+EOF
