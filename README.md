@@ -24,7 +24,7 @@ API data extraction → JSON transformation → Data cleaning and validation →
 - XGBoost
 
 ## Model Evaluation
-The test set performance
+The test set performance (0 = not delayed, 1 = delayed) 
 |              |   precision |   recall |   f1-score |   support |
 |:-------------|------------:|---------:|-----------:|----------:|
 | 0            |        0.81 |     0.29 |       0.43 |   1344    |
