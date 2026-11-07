@@ -24,3 +24,8 @@ API data extraction → JSON transformation → Data cleaning and validation →
 - Decision Tree
 - k-Nearest Neighbors
 - XGBoost
+
+## Limitations
+- The current dataset covers only three weeks of flight operations due to the API's daily request limit.
+- Consequently, the analysis may not capture longer-term trends, seasonal variations, or recurring operational patterns.
+- The reliability and generalizability of the findings are expected to improve as additional flight records are collected.
