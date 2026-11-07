@@ -21,9 +21,23 @@ API data extraction → JSON transformation → Data cleaning and validation →
 
 - Logistic Regression
 - Random Forest
-- Decision Tree
-- k-Nearest Neighbors
 - XGBoost
+
+## Model Evaluation
+The test set performance
+|              |   precision |   recall |   f1-score |   support |
+|:-------------|------------:|---------:|-----------:|----------:|
+| 0            |        0.81 |     0.29 |       0.43 |   1344    |
+| 1            |        0.39 |     0.87 |       0.54 |    695    |
+| accuracy     |        0.49 |     0.49 |       0.49 |      0.49 |
+| macro avg    |        0.6  |     0.58 |       0.48 |   2039    |
+| weighted avg |        0.66 |     0.49 |       0.46 |   2039    |
+
+## Interactive Features
+
+A Streamlit application allows users to enter flight characteristics and receive an estimated probability of arrival delay exceeding 15 minutes.
+
+The application uses the trained XGBoost model and its corresponding preprocessing pipeline.
 
 ## Limitations
 - The current dataset covers only three weeks of flight operations due to the API's daily request limit.
