@@ -39,7 +39,7 @@ A Streamlit application allows users to enter flight characteristics and receive
 
 The application uses the trained XGBoost model and its corresponding preprocessing pipeline.
 
-![KLM Flight Delay Prediction App](images/streamlit_app.png)
+
 ## Limitations
 - The current dataset covers only three weeks of flight operations due to the API's daily request limit.
 - Consequently, the analysis may not capture longer-term trends, seasonal variations, or recurring operational patterns.
